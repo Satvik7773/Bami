@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Bamy &copy; 2024</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+    <header>
+
+        <!-- <img src="https://assets.www.warnerbros.com/drupal-root/public/wizarding_world_logo.jpg" width="90px"> -->
+        <h2 class="logo">Bamy Consulting & Services</h2>
+        <P> &copy; 2024 </P>
+
+        <nav class="navigation">
+            <a href="#">Home</a>
+            <a href="#">About</a>
+            <a href="#">Contact</a>
+            <button class="bl">Login</button>
+        </nav>
+
+        <nav class="login">
+            <p></p>
+        </nav>
+
+ </header>
+    <!-- <div class="wrapper"> -->
+    <div class="hidden">
+        <div class="wrapper">
+
+            <span class="icon-close">
+                <ion-icon name="close-outline"></ion-icon>
+            </span>
+            <div class="form-box_login login">
+                <h2>Login</h2>
+                <form action="#">
+                    <div class="input-box">
+                        <span class="icon"><ion-icon name="mail-outline"></ion-icon></span>
+                        <input type="text" required>
+                        <label>Email</label>
+
+                    </div>
+
+                    <div class="input-box">
+                        <span class="icon"><ion-icon name="lock-closed-outline"></ion-icon></span>
+                        <input type="password" required>
+          
+                        <label>Password</label>
+
+                    </div>
+                    <div class="remeber-forgot">
+                        <label><input type="checkbox"> Remember me
+                        </label>
+                        <a href="#">Forgot Password ?</a>
+                    </div>
+                    <button type="submit" class="btn">Login</button>
+                    <div class="login-register">
+                        <p>Don't have an account ? <a href="#" class="login-link">Register</a></p>
+
+                    </div>
+                </form>
+            </div>
+
+
+            <div class="form-box_login register">
+                <h2>Registration</h2>
+                <form action="backend.php" method="post">
+
+                    <div class="input-box">
+                        <span class="icon"><ion-icon name="person-outline"></ion-icon></span>
+                        <input type="text" name="username1" id="username1" required>
+                        <label>Username</label>
+
+                    </div>
+                    
+                    <div class="input-box">
+                        <span class="icon"><ion-icon name="mail-outline"></ion-icon></span>
+                        <input type="text" name="email" id="email" required>
+                        <label>Email</label>
+
+                    </div>
+
+                    <div class="input-box">
+                        <span class="icon"><ion-icon name="lock-closed-outline"></ion-icon></span>
+                        <input type="password" name="password" id="password" required>
+
+                        <label>Password</label>
+                        
+
+                    </div>
+                    <!-- <div class="remeber-forgot">
+                     <label><input type="checkbox"> Remember me
+                     </label>
+                     <a href="#">Forgot Password ?</a>
+                 </div> -->
+                    <button type="submit" class="btn">Register</button>
+                    <div class="login-register">
+                        <p>Already have an account ?<a href="#" class="register-link">Login</a></p>
+
+                    </div>
+                </form>
+
+            </div>
+
+
+
+        </div>
+        </div>
+
+       <div class="footer">
+        <!-- <p>Powered by <a href="#">farzi naukari.com</a>Copyright © 2024</p> -->
+        <!-- <p>Copyright © 2022</p> -->
+       </div>
+
+        <script src="script.js"></script>
+        <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+        <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+
+</body>
+  
+
+</html>
